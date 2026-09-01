@@ -2,6 +2,8 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Noto Sans KR', sans-serif; color:#3c3c3c; background-color: #fff; line-height: 1.5; word-break: keep-all; overflow-x: hidden; }
+p, span, a, h1, h2, h3, h4, h5, h6, li {
+    color: #3c3c3c !important;}
 ul, ol, li { list-style: none; }
 a { text-decoration: none; color: inherit; }
 

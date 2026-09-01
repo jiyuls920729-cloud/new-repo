@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: 'Noto Sans KR', sans-serif; color: #red; background-color: #fff; line-height: 1.5; word-break: keep-all; overflow-x: hidden; }
+body { font-family: 'Noto Sans KR', sans-serif; color: red; background-color: #fff; line-height: 1.5; word-break: keep-all; overflow-x: hidden; }
 ul, ol, li { list-style: none; }
 a { text-decoration: none; color: inherit; }
 

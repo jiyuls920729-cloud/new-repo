@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G건축 - 로그인</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login-section { display: flex; align-items: center; justify-content: center; min-height: calc(100vh - 90px); background-color: #f4f7f6; padding: 40px 0; }
+        .login-card { width: 450px; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid #e5e5e5; }
+        .login-header { text-align: center; margin-bottom: 30px; }
+        .login-header h2 { font-size: 26px; font-weight: 700; color: #111; margin-bottom: 8px; }
+        .login-header p { font-size: 14px; color: #666; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; font-size: 13px; font-weight: 600; color: #333; margin-bottom: 6px; }
+        .form-group input { width: 100%; height: 48px; padding: 0 15px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px; outline: none; transition: border-color 0.3s; }
+        .form-group input:focus { border-color: #0056b3; }
+        .login-options { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: #666; margin-bottom: 20px; }
+        .login-options label { display: flex; align-items: center; gap: 5px; cursor: pointer; }
+        .login-options a:hover { color: #0056b3; text-decoration: underline; }
+        .btn-login { width: 100%; height: 50px; background: #0056b3; color: #fff; border: none; border-radius: 4px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
+        .btn-login:hover { background: #003d82; }
+        .login-footer-link { text-align: center; margin-top: 25px; font-size: 13px; color: #666; }
+        .login-footer-link a { color: #0056b3; font-weight: 600; margin-left: 5px; }
+    </style>
+</head>
+<body>
+
+    <header id="header" style="position: relative; background: #2c3e50;">
+        <div class="inner header-inner">
+            <div class="logo">
+                <a href="./index.html">G <span>ARCHITECTURE</span></a>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="./sub.html">회사소개</a></li>
+                    <li><a href="#">상품소개</a></li>
+                    <li><a href="#">상품구매하기</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <div class="util-nav">
+                <ul>
+                    <li><a href="./login.html" style="color: #64b5f6;">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">주문/배송조회</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="login-section">
+        <div class="login-card">
+            <div class="login-header">
+                <h2>WELCOME</h2>
+                <p>G건축 공식 홈페이지에 오신 것을 환영합니다.</p>
+            </div>
+            
+            <form action="./index.html" method="get">
+                <div class="form-group">
+                    <label for="userid">아이디</label>
+                    <input type="text" id="userid" placeholder="아이디를 입력해주세요" required>
+                </div>
+                <div class="form-group">
+                    <label for="userpw">비밀번호</label>
+                    <input type="password" id="userpw" placeholder="비밀번호를 입력해주세요" required>
+                </div>
+
+                <div class="login-options">
+                    <label><input type="checkbox"> 아이디 기억하기</label>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+
+                <button type="submit" class="btn-login">로그인</button>
+            </form>
+
+            <div class="login-footer-link">
+                아직 회원이 아니신가요? <a href="#">회원가입하기</a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="inner footer-inner">
+            <div class="footer-top">
+                <ul class="footer-menu">
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="./sub.html">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">공고/제휴문의</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="company-info">
+                    <p><span>디자인교과서</span><span>법인명(상호) : G건축</span><span>대표자(성명) : 서수정</span></p>
+                    <p><span>사업자 등록번호 : 000-0000-0000</span><span>통신판매업 신고 : 000-0000-0000</span><a href="#" class="btn-biz"><strong>[사업자정보확인]</strong></a></p>
+                    <p><span>전화 : 1644-8198</span><span>팩스 : 00-000-0000</span><span>주소 : 서울시 용산구 한강대로 95 래미안용산더센트럴 411호</span></p>
+                    <p><span>개인정보관리책임자 : 서수정 (help@design-book.co.kr)</span><span>메일 : help@design-book.co.kr</span></p>
+                    <p class="copyright">COPYRIGHT © G건축. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

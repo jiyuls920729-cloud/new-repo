@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G건축 - 회사소개</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .sub-visual { height: 350px; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; display: flex; align-items: center; justify-content: center; color: #fff; text-align: center; padding-top: 50px; }
+        .sub-visual h2 { font-size: 38px; font-weight: 700; margin-bottom: 10px; }
+        .sub-visual p { font-size: 16px; color: #b0c4de; }
+        .sub-content-section { padding: 80px 0; background-color: #fff; }
+        .intro-box { text-align: center; max-width: 800px; margin: 0 auto 60px auto; }
+        .intro-box h3 { font-size: 26px; font-weight: 700; color: #111; margin-bottom: 20px; }
+        .intro-box p { font-size: 16px; color: #555; line-height: 1.8; }
+        .history-wrap { max-width: 900px; margin: 0 auto; position: relative; padding-left: 30px; border-left: 3px solid #0056b3; }
+        .history-item { position: relative; margin-bottom: 40px; padding-left: 30px; }
+        .history-item::before { content: ''; position: absolute; left: -36.5px; top: 5px; width: 15px; height: 15px; background: #fff; border: 4px solid #0056b3; border-radius: 50%; }
+        .history-year { font-size: 20px; font-weight: 700; color: #0056b3; margin-bottom: 8px; }
+        .history-desc { font-size: 15px; color: #444; line-height: 1.6; background: #f8f9fa; padding: 15px 20px; border-radius: 6px; border: 1px solid #e5e5e5; }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 영역 (로고 누르면 메인으로 이동) -->
+    <header id="header" style="position: relative; background: #2c3e50;">
+        <div class="inner header-inner">
+            <div class="logo">
+                <a href="./index.html">G <span>ARCHITECTURE</span></a>
+            </div>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="./sub.html" style="color: #64b5f6;">회사소개</a></li>
+                    <li><a href="#">상품소개</a></li>
+                    <li><a href="#">상품구매하기</a></li>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+            <div class="util-nav">
+                <ul>
+                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">주문/배송조회</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- 서브 비주얼 배너 -->
+    <section class="sub-visual">
+        <div class="inner">
+            <h2>회사소개</h2>
+            <p>신뢰와 기술로 미래를 창조하는 G건축의 연혁입니다.</p>
+        </div>
+    </section>
+
+    <!-- 서브 메인 콘텐츠 (연혁 타임라인) -->
+    <main class="sub-content-section">
+        <div class="inner">
+            <div class="intro-box">
+                <h3>G건축의 발자취</h3>
+                <p>언제나 안전을 최우선으로 생각하며, 체계적인 시공 시스템과 친환경 기술력을 바탕으로 성장해 온 G건축의 주요 연혁을 소개합니다.</p>
+            </div>
+
+            <div class="history-wrap">
+                <div class="history-item">
+                    <div class="history-year">2026</div>
+                    <div class="history-desc">G건축 공식 홈페이지 리뉴얼 오픈 및 친환경 건축 자재 솔루션 브랜드 런칭</div>
+                </div>
+                <div class="history-item">
+                    <div class="history-year">2024</div>
+                    <div class="history-desc">서울 테헤란로 스마트 오피스 타워 성공적 완공 및 국토교통부장관 표창 수상</div>
+                </div>
+                <div class="history-item">
+                    <div class="history-year">2022</div>
+                    <div class="history-desc">기술연구소(R&D) 설립 및 고강도 친환경 콘크리트 특허 출원</div>
+                </div>
+                <div class="history-item">
+                    <div class="history-year">2020</div>
+                    <div class="history-desc">'G건축' 법인 설립 및 종합건설 면허 취득</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 영역 -->
+    <footer id="footer">
+        <div class="inner footer-inner">
+            <div class="footer-top">
+                <ul class="footer-menu">
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="./sub.html">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">공고/제휴문의</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <div class="company-info">
+                    <p><span>디자인교과서</span><span>법인명(상호) : G건축</span><span>대표자(성명) : 서수정</span></p>
+                    <p><span>사업자 등록번호 : 000-0000-0000</span><span>통신판매업 신고 : 000-0000-0000</span><a href="#" class="btn-biz"><strong>[사업자정보확인]</strong></a></p>
+                    <p><span>전화 : 1644-8198</span><span>팩스 : 00-000-0000</span><span>주소 : 서울시 용산구 한강대로 95 래미안용산더센트럴 411호</span></p>
+                    <p><span>개인정보관리책임자 : 서수정 (help@design-book.co.kr)</span><span>메일 : help@design-book.co.kr</span></p>
+                    <p class="copyright">COPYRIGHT © G건축. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
